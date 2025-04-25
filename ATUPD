@@ -53,11 +53,11 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
 
+
 local Button = Tab:CreateButton({
-   Name = "Auto Parry [No anti Curve]",
+   Name = "Auto parry [Normal]",
    Callback = function()
-   getgenv().visualizer = false
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+   loadstring(game:HttpGet("https://pastebin.com/raw/yUmAbyds"))()
    end,
 })
 
